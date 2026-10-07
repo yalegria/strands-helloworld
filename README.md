@@ -1,8 +1,8 @@
-# Strands Decider - Installation & Quickstart Guide (uv Edition)
+# Strands Decider - Installation & Quickstart Guide
 
 `strands-decider` is a high-speed, local classification engine designed for AI agent workflows. Instead of slowly generating open-ended text token-by-token like a standard LLM, it evaluates a statement against a fixed list of options and instantly calculates a mathematical match score for each choice in a single forward pass.
 
-This guide uses **[uv](https://github.com)** by Astral to manage specific Python versions and execute fast isolated installations.
+This guide uses `uv` by Astral to manage specific Python versions and execute fast isolated installations.
 
 ---
 
@@ -60,7 +60,7 @@ choice_0 -> billing (confidence 0.768)
 * **The Match Score Matrix:** The values next to each choice function like a percentage match out of `1.00`. The model identifies an 84.5% structural match for `billing`.
 * **The Confidence Score (`0.768`):** This value is a calculated mathematical margin of certainty. It tells you how cleanly the winning choice outperformed the runners-up. 
 
-📖 **Looking for more experimentation scenarios?** Additional multi-domain classification scripts, sample inputs, and configuration commands can be found in the adjacent **`ASKS.md`** file.
+📖 **Looking for more experimentation scenarios?** Additional multi-domain classification scripts, sample inputs, and configuration commands can be found in the adjacent [ASKS.md](./ASKS.md) file.
 
 ---
 
